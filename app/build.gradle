@@ -8,6 +8,7 @@ android {
         applicationId "co.mobiwise.myapplication"
         minSdkVersion 16
         targetSdkVersion 22
+        buildToolsVersion "22.0.3"
         versionCode 1
         versionName "1.0"
 
