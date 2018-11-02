@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "22.0.0"
 
     defaultConfig {
         applicationId "co.mobiwise.myapplication"
         minSdkVersion 16
+        buildToolsVersion "22.0.0"
         targetSdkVersion 22
-        buildToolsVersion "22.0.3"
         versionCode 1
         versionName "1.0"
 
