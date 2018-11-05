@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "co.mobiwise.myapplication"
+        applicationId "me.dimassrio.radioplayerservice"
         minSdkVersion 26
         targetSdkVersion 26
         versionCode 1
@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':library')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':library')
     //compile 'com.github.iammert:RadioPlayerService:9a0cc8dc94'
 }
